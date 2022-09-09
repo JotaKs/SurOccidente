@@ -121,6 +121,28 @@ header a:hover{
 }
 /*VALLE*/
 
+#img3{
+    width: 290px;
+    position: relative;
+    top: 90px;
+    left: 220px;
+}
+
+.container4{
+    width: 500px;
+    position: relative;
+    left: 650px;
+    top: -100px;
+}
+
+#titulo1{
+    font-weight: 100;
+    font-size: 20px;
+    position: relative;
+    top: -70px;
+    left: -40px;
+}
+
 /*FOOTER*/
 footer {
     display: flex;
