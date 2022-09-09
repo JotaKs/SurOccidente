@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box; 
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth; /*para que se desplace hacia la ventana*/
+}
+
+body{
+    font-family: Arial;
+    margin: 0;
+    height: 100px;
+}
+/*INDEX*/
+/*CABECERA*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(210, 38, 38);
+    color: white;
+}
+
+.containerh{
+    display: flex;
+    top: 35px;
+    font-size: 12px;
+    position: relative;
+    margin: 10px;
+}
+
+h3{
+    font-weight: 100;
+    font-size: 12px;
+}
+.izq {
+    position: relative;
+    left: -250px;
+    top: 12px;
+}
+
+.der{
+    position: relative;
+    left: 320px;
+    top: 12px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 25px;
+    font-weight: normal;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    color: rgb(108, 1, 1);
+}
+
+/*CUERPO*/
+
+.container1{
+    height: 400px;
+}
+
+#img1{
+    width: 500px;
+    position: relative;
+    top: 80px;
+    left: 70px
+}
+
+#titulo{
+    font-weight: 100;
+    font-size: 20px;
+    position: relative;
+    top: -90px;
+    left: -40px;
+}
+
+.container2{
+    width: 500px;
+    position: relative;
+    left: 600px;
+    top: -100px;
+}
+
+#texto{
+    width: 700px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    left: -140px;
+    font-size: 11px;
+}
+
+/*CAUCA*/
+
+/*NARIÑO/
+
+/*VALLE*/
+
+/*FOOTER*/
+footer {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    font-size: 35px;
+    background-color: rgb(245, 42, 42);
+    color: white;
+    justify-content: center;
+    flex-direction: column-reverse;
+    position: relative;
+    top: -50px;
+    margin: 10px;
+}
